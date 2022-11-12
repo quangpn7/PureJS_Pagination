@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+#cardStd {
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+a {
+  transition: all 0.3s linear;
+}
+img {
+  transition: all 0.2s linear;
+  z-index: 10;
+}
+img:hover {
+  transform: scale(2, 2);
+  margin: auto;
+}
+#cardStd:hover a {
+  color: white !important;
+}
+
+#cardStd:hover {
+  background-color: #5d6269;
+  color: white;
+  transform: scale(1.05);
+}
