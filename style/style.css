@@ -26,3 +26,7 @@ img:hover {
   color: white;
   transform: scale(1.05);
 }
+.isDisabled {
+  cursor: none;
+  pointer-events: none;
+}
